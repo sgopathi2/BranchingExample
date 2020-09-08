@@ -71,6 +71,7 @@
     <Content Include="Contact.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="MyMenu.ascx" />
     <Content Include="OurStyle.css" />
     <Content Include="Web.config" />
@@ -99,6 +100,13 @@
     </Compile>
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyMenu.ascx.cs">
       <DependentUpon>MyMenu.ascx</DependentUpon>
